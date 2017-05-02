@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Welcome page animation</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="js/jquery-latest.min.js"></script>
+	<script src="js/svg-injector.js"></script>
+</head>
+
+<body>
+	<div class="modal">
+		<img class="inject-me" src="svg/welcome-animation.svg" alt="">
+	</div>
+
+	<script>
+	  // Elements to inject
+	  var mySVGsToInject = document.querySelectorAll('img.inject-me');
+	  // Do the injection
+	  SVGInjector(mySVGsToInject);
+	</script>
+
+</body>
+
+</html>

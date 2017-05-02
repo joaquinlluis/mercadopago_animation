@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="480px" height="310px" viewBox="0 0 480 310" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>welcome-background</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="77.7243943%" x2="50%" y2="0%" id="linearGradient-1">
+            <stop stop-color="#60C1F8" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <path d="M-0.0350040962,-0.101874058 L-0.0350040962,99.7213764 L228.729256,184.908773 C243.873174,190.548077 261.258789,183.436094 267.555851,169.035747 L341.517278,-0.101874058 L-0.0350040962,-0.101874058 Z" id="path-2"></path>
+        <filter x="-1.0%" y="-1.3%" width="102.0%" height="103.7%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.764705882   0 0 0 0 0.764705882   0 0 0 0 0.764705882  0 0 0 0.05 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="welcome-background">
+            <rect id="background-gradient" fill-opacity="0.700000048" fill="url(#linearGradient-1)" style="mix-blend-mode: multiply;" opacity="0.600000024" transform="translate(240.000000, 155.000000) scale(1, -1) translate(-240.000000, -155.000000) " x="0" y="0" width="480" height="310"></rect>
+            <g id="white-gradient">
+                <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                <use fill-opacity="0.449999988" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-2"></use>
+            </g>
+        </g>
+    </g>
+</svg>

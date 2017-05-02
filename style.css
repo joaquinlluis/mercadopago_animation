@@ -1,0 +1,22 @@
+html, * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  -ms-overflow-style: none;
+  overflow: -moz-scrollbars-none; }
+
+body {
+  min-height: 100vh;
+  min-width: 100vw;
+  background: #f2f2f2;
+  display: flex; }
+
+.modal {
+  width: 480px;
+  height: 310px;
+  margin: auto;
+  text-align: center;
+  background: url(svg/welcome-background.svg) center top white;
+  border-radius: 4px; }

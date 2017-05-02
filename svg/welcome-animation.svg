@@ -1,0 +1,67 @@
+<svg width="480" height="230" viewBox="0 0 480 230" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <title>
+    Bienvenido al nuevo mercado pago
+  </title>
+
+  <defs>
+    <path d="M140 72.463c0-2.465 1.996-4.463 4.458-4.463h191.084c2.462 0 4.458 1.996 4.458 4.463v124.074c0 2.465-1.996 4.463-4.458 4.463H144.458c-2.462 0-4.458-1.996-4.458-4.463V72.463z" id="path-1"/>
+    <filter x="-11%" y="-18%" width="122%" height="133.1%" filterUnits="objectBoundingBox" id="filter-2">
+      <feOffset dy="-2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur stdDeviation="7" in="shadowOffsetOuter1" result="shadowBlurOuter1"/>
+      <feColorMatrix values="0 0 0 0 0.6 0 0 0 0 0.6 0 0 0 0 0.6 0 0 0 0.2 0" in="shadowBlurOuter1"/>
+    </filter>
+    <path d="M127.5 186h225v9.9c0 2.817-2.282 5.1-5.095 5.1h-214.81c-2.814 0-5.095-2.278-5.095-5.1V186z" id="path-3"/>
+    <filter x="-9.8%" y="-160%" width="119.6%" height="393.3%" filterUnits="objectBoundingBox" id="filter-4">
+      <feOffset dy="-2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur stdDeviation="7" in="shadowOffsetOuter1" result="shadowBlurOuter1"/>
+      <feColorMatrix values="0 0 0 0 0.6 0 0 0 0 0.6 0 0 0 0 0.6 0 0 0 0.2 0" in="shadowBlurOuter1"/>
+    </filter>
+  </defs>
+
+  <g fill="none">
+
+    <!-- stars -->
+    <!--
+    <path id="star1" d="M103.602 78.294c-2.135-.57-4.326-2.76-4.896-4.896l-1.19-4.468c-.286-1.066-.745-1.073-1.03 0l-1.192 4.468c-.57 2.135-2.76 4.326-4.896 4.896l-4.468 1.19c-1.066.286-1.073.745 0 1.03l4.468 1.192c2.135.57 4.326 2.76 4.896 4.896l1.19 4.468c.286 1.066.745 1.073 1.03 0l1.192-4.468c.57-2.135 2.76-4.326 4.896-4.896l4.468-1.19c1.066-.286 1.073-.745 0-1.03l-4.468-1.192z" fill="#FFF" fill-rule="nonzero"/>
+    <path id="star2" d="M122.972 106.926c-2.136-.57-4.33-2.764-4.898-4.898l-.56-2.097c-.283-1.065-.743-1.07-1.03 0l-.558 2.098c-.57 2.136-2.764 4.33-4.898 4.898l-2.097.56c-1.065.283-1.07.743 0 1.03l2.098.558c2.136.57 4.33 2.764 4.898 4.898l.56 2.097c.283 1.065.743 1.07 1.03 0l.558-2.098c.57-2.136 2.764-4.33 4.898-4.898l2.097-.56c1.065-.283 1.07-.743 0-1.03l-2.098-.558z" fill-opacity=".8" fill="#FFF" fill-rule="nonzero"/>
+    -->
+    <!-- stars -->
+    <!--
+    <path id="star3" d="M368.972 106.926c-2.136-.57-4.33-2.764-4.898-4.898l-.56-2.097c-.283-1.065-.743-1.07-1.03 0l-.558 2.098c-.57 2.136-2.764 4.33-4.898 4.898l-2.097.56c-1.065.283-1.07.743 0 1.03l2.098.558c2.136.57 4.33 2.764 4.898 4.898l.56 2.097c.283 1.065.743 1.07 1.03 0l.558-2.098c.57-2.136 2.764-4.33 4.898-4.898l2.097-.56c1.065-.283 1.07-.743 0-1.03l-2.098-.558z" fill-opacity=".8" fill="#FFF" fill-rule="nonzero"/>
+    <path id="star4" d="M389.602 78.294c-2.135-.57-4.326-2.76-4.896-4.896l-1.19-4.468c-.286-1.066-.745-1.073-1.03 0l-1.192 4.468c-.57 2.135-2.76 4.326-4.896 4.896l-4.468 1.19c-1.066.286-1.073.745 0 1.03l4.468 1.192c2.135.57 4.326 2.76 4.896 4.896l1.19 4.468c.286 1.066.745 1.073 1.03 0l1.192-4.468c.57-2.135 2.76-4.326 4.896-4.896l4.468-1.19c1.066-.286 1.073-.745 0-1.03l-4.468-1.192z" fill="#FFF" fill-rule="nonzero"/>
+    -->
+
+    <!-- device -->
+    <g id="device_back">
+      <use fill="#000" filter="url(#filter-2)" xlink:href="#path-1"/>
+      <use fill="#FFF" xlink:href="#path-1"/>
+    </g>
+
+    <rect id="device_screen_back" fill="#F0F0F0" x="150" y="82" width="180" height="105" rx="4"/>
+    <circle id="device_lense" fill="#EEE" cx="240" cy="75" r="2"/>
+
+    <rect id="money3" fill="#FFF" x="281" y="104" width="42" height="15" rx="1.275"/>
+    <rect id="money2" fill="#FFF" x="234" y="104" width="42" height="15" rx="1.275"/>
+    <rect id="money1" fill="#FFF" x="187" y="104" width="42" height="15" rx="1.275"/>
+
+    <path id="activity_back" d="M187 125.273c0-.703.577-1.273 1.28-1.273h133.44c.707 0 1.28.564 1.28 1.273V187H187v-61.727z" fill="#FFF"/>
+    <path id="activity_separator1" d="M192 144h126" stroke="#EEE" stroke-linecap="square"/>
+    <path id="activity_separator2" d="M192 165h126" stroke="#EEE" stroke-linecap="square"/>
+    <circle id="activity_circle3" fill="#E6F5FC" cx="196.5" cy="175.5" r="4.5"/>
+    <circle id="activity_circle2" fill="#E6F5FC" cx="196.5" cy="154.5" r="4.5"/>
+    <circle id="activity_circle1" fill="#E6F5FC" cx="196.5" cy="133.5" r="4.5"/>
+    <path id="navbar" d="M150 83.28c0-.707.565-1.28 1.27-1.28h177.46c.7 0 1.27.57 1.27 1.28V97H150V83.28z" fill="#99D8F4"/>
+    <path id="navbar_side" d="M150 83.28c0-.707.573-1.28 1.27-1.28h27.46c.7 0 1.27.57 1.27 1.28V97h-30V83.28z" fill="#8ED2F0"/>
+    <path id="sidebar" fill="#E6E6E6" d="M150 97h30v90h-30z"/>
+    <path id="device_screen_border" stroke="#F2F2F2" stroke-width="1.5" d="M150 82h180v105H150z"/>
+
+    <!-- device base -->
+    <g id="device_base">
+      <use fill="#000" filter="url(#filter-4)" xlink:href="#path-3"/>
+      <use fill="#FFF" xlink:href="#path-3"/>
+    </g>
+
+    <path id="device_base_shadow" d="M220.73 186h38.54v3.81c0 2.105-1.706 3.81-3.8 3.81h-30.94c-2.098 0-3.8-1.71-3.8-3.81V186z" fill="#F8F8F8"/>
+
+  </g>
+</svg>
